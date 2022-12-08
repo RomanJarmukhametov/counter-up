@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFF2E8;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    gap: 4rem;
+}
+
+.counter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.counter {
+    font-size: 4rem;
+    margin-top: .75rem;
+}
+
+.fa-facebook {
+    font-size: 3rem;
+    color: #3b5998;
+}
+
+.fa-twitter {
+    font-size: 3rem;
+    color: #1da1f2;
+}
+
+.fa-youtube {
+    font-size: 3rem;
+    color: #ff0000;
+}
+
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
